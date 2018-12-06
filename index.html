@@ -4,18 +4,36 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
+    
   </head>
-  <body>
-      <h1>C I P H E R</h1>
-      <form>
+  <body background= "fondo4.gif" width="200px"> 
+      <h1>encrypt caesar <br>C I P H E R</h1>
+      <div id="p1"><p></p></div>
+      <div id="p9">Instrucciones:</div>
+      <div id="p2"><p>               - Ingresa el texto a codificar/decodificar <br>
+                                     - Ingresa el número de desplazamiento en la casilla D <br></p></div>
+      <div id="p3"><p>Tips: No ingresar ñ ni carácteres especiales (/()!"#$%&), el desplazamiento no puede ser<br> negativo</p></div>
+      <div id="p4"><p>¿que es el caesar cipher?</p></div>
+      <div id="p5"><p>Es un tipo de cifrado por sustitución en el que una letra en el texto original es reemplazada <br> por otra 
+      letra que se encuentra un número fijo de posiciones más adelante en el alfabeto<br>(desplazamiento). <br>Usa el caesar cipher para 
+    enviar mensajes secretos a tus amigos</p></div>
+      <div id="p6"><p>ejemplos de caesar cipher</p></div>
+      <div id="p7"><p>El alfabeto codificado es un alfabeto normal que está desplazado un número determinado<br> de posiciones hacia 
+        la izquierda o derecha.<br> Por ejemplo, aquí el Caesar Cipher está usando un desplazamiento de 6 espacios:<br>
+        <br>
+        Texto original: ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>
+        <br>
+        Texto codificado: GHIJKLMNOPQRSTUVWXYZABCDEF
+      </p></div>
+      <p id="p8">envia mensajes secretos a tus amigos</p>
       <div>
-        <div><textarea rows="4" cols="50" id="encrypt" placeholder="Cifrar"></textarea></div>
-        <div><textarea rows="4" cols="50" id="descrypt" placeholder="Descifrar"></textarea></div>
+        <div><textarea rows="4" cols="50" id="encrypt" placeholder="cifrar"></textarea></div>
+        <div><textarea rows="4" cols="50" id="descrypt" placeholder="descifrar"></textarea></div>
       </div>
-      <div><input type= "text" id="displacement" placeholder="P"></textarea></div>
-        <button type="button" id="buttonStart">Cifrar</button>
-        <button type="button" id="buttonStart2">Descifrar</button>
-        <button type="button" id="buttonStart3" onclick="location.reload()">Limpiar</button>
+      <div><textarea type= "text" id="displacement" placeholder="  D"></textarea></div>
+        <button type="button" id="buttonStart">cifrar</button>
+        <button type="button" id="buttonStart2">descifrar</button>
+        <button type="button" id="buttonStart3" onclick="location.reload()">limpiar</button>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
