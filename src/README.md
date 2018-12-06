@@ -1,24 +1,26 @@
 ![cipher](foto_cipher.jpg)
 
-Caesar Cipher
+# Caesar Cipher
 
-Índice 
+## Índice 
 
 - [Especificaciones](#especificaciones)
 - [Objetivos de la página](#Objetivosdelapágina)
 - [Público objetivo](#públicoobjetivo)
+- []
+- [Evolución interfáz](#evolucióninterfáz)
 
-**Especificaciones:**
+### **Especificaciones:**
 - Caesar Cipher es un codificador/decodificar de mensajes mediante una llave (desplazamiento) secreta. 
 
-**Objetivos de la página:**
+### **Objetivos de la página:**
 - Recibir y enviar mensajes secretos que sólo el receptor podrá decodificar mediante una llave (desplazamiento)
 - Mantener en secreto conversaciones con amigos 
 
-**Público objetivo:**
+### **Público objetivo:**
 - Caesar Cipher está pensado en niños y adolescentes amantes de los videojuegos de entre 8 y 20 años. La interfáz de la página se hizo pensando siempre en ellos. Los colores negro y verde de la página se hicieron en base a la película Matrix (ciencia ficción), las letras en el famoso juego Minecraft y el fondo Star Wars. La página es de fácil acceso y entendimiento. 
 
-**Envolución interfáz (sketch)** 
+## **Envolución interfáz (sketch)** 
 
 ![sketch-27.11](sketch_27-11.jpg)
 
