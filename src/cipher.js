@@ -16,7 +16,6 @@ window.cipher = {
     }
     return result;
 },
-// ME PITIÉ EL CODIGO CONCHALALORAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA 03-12-2018
 
   decode: (offset, text) => { // agregar 2 parámetros. texto y desplazamiento
     offset=parseInt(offset);
