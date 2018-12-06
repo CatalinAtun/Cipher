@@ -1,4 +1,4 @@
-![cipher](foto_cipher.jpg)
+![cipher](images/foto_cipher.jpg)
 
 # Caesar Cipher
 
@@ -42,19 +42,19 @@
 
 ## **Envolución interfáz (sketch)** 
 
-![sketch-27.11](sketch_27-11.jpg)
+![sketch-27.11](images/sketch_27-11.jpg)
 
 **Primer sketch (27-11):** ^ Se cambió la interfáz de la página ya que se encontró que era difícil de entender y visualmente cansador. Diseño poco entendible y saturado de información. 
 
-![sketch-30.11](sketch_30-11.jpg)
+![sketch-30.11](images/sketch_30-11.jpg)
 
 **Segundo sketch (30-11):** ^ Se eliminó cuadro de video y bienvenida a la página (contenido distractor). Botones "cifrar" y "descifrar" se independizan.
 
-![sketch-02.12](sketch_02-11.jpg)
+![sketch-02.12](images/sketch_02-11.jpg)
 
 **Tercer sketch (02-12):** Mayor protagonismo a cuadros codificar/decodificar. Se agrega botón "limpiar". El logo es centrado ya que de la otra forma se creaba un "vacío" un la esquina superior derecha. El parámetro cambia a una posición más accesible. 
 
 ## Interfáz final 
-![cipher](foto_cipher.jpg)
+![cipher](images/foto_cipher.jpg)
 
 - Sencillo de usar. Tan solo una página de navegación. 3 botones funcionales (cifrar, limpiar, descifrar). En el lado izquierdo hay información sobre qué es el caesar cipher y ejemplos (esto para hacer más entendible la página para el usuario) en el lado derecho la parte funcional de la página. 
