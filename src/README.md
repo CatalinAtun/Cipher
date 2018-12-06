@@ -4,16 +4,16 @@
 
 ## Índice 
 
-- [Para el usuario](#paraelusuario)
-   - [¿Qué es el Caesar Cipher?](#¿quéeselcaesarcipher?)
-   - [¿Para qué usar Caesar Chipher?](#¿paraquéusarcaesarcipher?)
-   - [Instrucciones de uso](#instruccionesdeso)
-- [Para el desarrollador](#paraeldesarrollador)
-   - [Especificaciones](#especificaciones)
-   - [Objetivos de la página](#objetivosdelapágina)
-   - [Público objetivo](#públicoobjetivo)
-   - [Evolución interfáz](#evolucióninterfáz)
-   - [Interfáz final](#interfázfinal)
+- Para el usuario
+   - ¿Qué es el Caesar Cipher?
+   - ¿Para qué usar Caesar Chipher?
+   - Instrucciones de uso
+- Para el desarrollador
+   - Especificaciones
+   - Objetivos de la página
+   - Público objetivo
+   - Evolución interfáz
+   - Interfáz final
 
 ## Para el usuario
 
