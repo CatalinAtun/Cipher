@@ -1,44 +1,45 @@
 window.cipher = {
-  encode: (offset, texto) => { // agregar 2 parámetros. texto y desplazamiento
+  encode: (offset, text) => { // agregar 2 parámetros. texto y desplazamiento
     offset=parseInt(offset);
-    let resultado = '';
-  for (let i=0; i<texto.length; i++){
-    let letraAscii=texto[i].charCodeAt();
-    if (letraAscii >= 65 && letraAscii <= 90 ) {
-      let letraConvertida=(letraAscii-65+offset)%26+65; 
-      resultado += String.fromCharCode(letraConvertida);
-    }else if (letraAscii >= 97 && letraAscii <= 122 ) {
-      let letraConvertida=(letraAscii-97+offset)%26+97; 
-      resultado += String.fromCharCode(letraConvertida);
+    let result = '';
+  for (let i=0; i<text.length; i++){
+    let letterAscii=text[i].charCodeAt();
+    if (letterAscii >= 65 && letterAscii <= 90 ) {
+      let letterConverted=(letterAscii-65+offset)%26+65; 
+      result += String.fromCharCode(letterConverted);
+    }else if (letterAscii >= 97 && letterAscii <= 122 ) {
+      let letterConverted=(letterAscii-97+offset)%26+97; 
+      result += String.fromCharCode(letterConverted);
     }else{
-      resultado += texto[i]
+      result += text[i]
     }
     }
-    return resultado;
+    return result;
 },
+// ME PITIÉ EL CODIGO CONCHALALORAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA 03-12-2018
 
-  decode: (offset, texto) => { // agregar 2 parámetros. texto y desplazamiento
+  decode: (offset, text) => { // agregar 2 parámetros. texto y desplazamiento
     offset=parseInt(offset);
-      let resultado = '';
-      for (let i=0; i<texto.length; i++){
-        let letraAscii=texto[i].charCodeAt();
-        if (letraAscii >= 65 && letraAscii <= 90 ) {
-          let letraConvertida=(letraAscii-65-offset)%26+65;
-          if (letraConvertida<65){
-            letraConvertida+=26;
+      let result = '';
+      for (let i=0; i<text.length; i++){
+        let letterAscii=text[i].charCodeAt();
+        if (letterAscii >= 65 && letterAscii <= 90 ) {
+          let letterConverted=(letterAscii-65-offset)%26+65;
+          if (letterConverted<65){
+            letterConverted+=26;
           }
-          resultado += String.fromCharCode(letraConvertida);
-        }else if (letraAscii >= 97 && letraAscii <= 122 ) {
-          let letraConvertida=(letraAscii-97-offset)%26+97;
-          if (letraConvertida<97){
-            letraConvertida+=26;
+          result += String.fromCharCode(letterConverted);
+        }else if (letterAscii >= 97 && letterAscii <= 122 ) {
+          let letterConverted=(letterAscii-97-offset)%26+97;
+          if (letterConverted<97){
+            letterConverted+=26;
           }
-          resultado += String.fromCharCode(letraConvertida);
+          result += String.fromCharCode(letterConverted);
         }else{
-          resultado += texto[i]
+          result += text[i]
         }
         
         }
-        return resultado;
+        return result;
     }
   };

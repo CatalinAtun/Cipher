@@ -12,11 +12,26 @@
     "test": "npm run test-node && npm run test-browser"
   },
   "dependencies": {
-    "chai": "^4.1.2",
     "eslint": "^5.9.0",
     "htmlhint": "^0.10.1",
-    "mocha": "^5.1.1",
     "nyc": "^13.1.0",
     "opener": "^1.4.3"
-  }
+  },
+  "description": "Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CatalinaCampos/proyecto_cipher.git"
+  },
+  "author": "Catalina Campos Cáceres",
+  "bugs": {
+    "url": "https://github.com/CatalinaCampos/proyecto_cipher/issues"
+  },
+  "homepage": "https://github.com/CatalinaCampos/proyecto_cipher#readme"
 }

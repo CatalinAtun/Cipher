@@ -1,23 +1,21 @@
 window.onload =() => {
     // codificar
-    const button = document.getElementById('encode');
-    buttonStart.addEventListener('click', ()=> {
-        let menssage = document.getElementById('encrypt').value;
+    document.getElementById("buttonStart").addEventListener('click', ()=> {
+        let message = document.getElementById('encrypt').value;
         let displacement = document.getElementById('displacement').value;
-        document.getElementById("descrypt").value= window.cipher.encode(displacement, menssage);
-        return window.cipher.encode(displacement, menssage);
+        document.getElementById("descrypt").value= window.cipher.encode(displacement, message);
+        return window.cipher.encode(displacement, message);
 
 
 
     })
 
     //decodificar
-    const button2 = document.getElementById('decode');
-    buttonStart2.addEventListener('click', ()=> {
-        let menssage = document.getElementById('descrypt').value;
+    document.getElementById("buttonStart2").addEventListener('click', ()=> {
+        let message = document.getElementById('descrypt').value;
         let displacement = document.getElementById('displacement').value;
-        document.getElementById("encrypt").value= window.cipher.decode(displacement, menssage); // si se pone innerHTML en vez de value, no se puede apretar 2 veces el boton cifrar/descifrar porque no pescaaaaa
-        return window.cipher.decode(displacement, menssage);
+        document.getElementById("encrypt").value= window.cipher.decode(displacement, message); // si se pone innerHTML en vez de value, no se puede apretar 2 veces el boton cifrar/descifrar porque no pescaaaaa
+        return window.cipher.decode(displacement, message);
 
 
 
