@@ -58,3 +58,5 @@
 ![cipher](images/foto_cipher.jpg)
 
 - Sencillo de usar. Tan solo una página de navegación. 3 botones funcionales (cifrar, limpiar, descifrar). En el lado izquierdo hay información sobre qué es el caesar cipher y ejemplos (esto para hacer más entendible la página para el usuario) en el lado derecho la parte funcional de la página. 
+
+Planificación Trello: https://trello.com/b/JhlGMbJ1/cipher
