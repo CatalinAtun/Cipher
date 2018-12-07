@@ -26,6 +26,7 @@
 ### **Instrucciones de uso**
 - Para **codificar:** Ingresa el texto a cifrar en el cuadro "cifrar", ingresa la llave o desplazamiento en la caja "D" y haz click en el botón "cifrar". El mensaje cifrado aparecerá en el cuadro del lado. 
 - Para **descifrar:** Ingresa el texto a descifrar en el cuadro "descifrar", ingresa la llave o desplazamiento (debe ser la misma que se usó para cifrar) en el cuadro "D" y haz click en el botón "descifrar". El mensaje descifrado aparecerá en el cuadro del lado.
+- **Para ambos casos:** El cipher **NO** codifica ñ ni carácteres especiales. El desplazamiento **NO** puede ser negativo. **SÍ** diferencia entre mayúscula y minúscula. 
 
 
 ## Para el desarrollador
