@@ -10,7 +10,7 @@ window.onload =() => {
 
     })
 
-    //decodificar
+    // decodificar
     document.getElementById("buttonStart2").addEventListener('click', ()=> {
         let message = document.getElementById('descrypt').value;
         let displacement = document.getElementById('displacement').value;

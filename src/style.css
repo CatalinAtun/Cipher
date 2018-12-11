@@ -14,8 +14,8 @@
 }
 
 h1 {
-    font-family: babyblocks; /* fuente */
     font-size: 50px; /* tamaño de la letra */
+    font-family: babyblocks; /* fuente */
     position: absolute;
     left: 450px;
     top: 0px;
@@ -49,8 +49,8 @@ h1 {
 }
 
 #p4 { /*¿Qué es el caesar cipher?*/
-    font-family: babyblocks; /* fuente */
     font-size: 40px; /* tamaño de la letra */
+    font-family: babyblocks; /* fuente */
     color: rgb(69, 192, 12);
     position: absolute;
     left: 115px;
@@ -66,8 +66,8 @@ h1 {
 }
 
 #p6 { /* ejemplos caesar cipher*/
-    font-family: babyblocks; /* fuente */
     font-size: 40px; /* tamaño de la letra */
+    font-family: babyblocks; /* fuente */
     color: rgb(69, 192, 12);
     position: absolute;
     left: 135px;
@@ -123,15 +123,17 @@ h1 {
     font-family: babyblocks;
 }
 #displacement {
+    font-size: 15px;
     position: absolute;
     left: 750px; /*derecha*/
     top: 290px; 
     width: 25px; /*ancho*/
     height: 25px; /*largo*/
     resize: none;
-    font-size: 15px;
+    
 }
 #buttonStart {
+    font-size: 19px; 
     position: absolute;
     left: 855px; /*derecha*/
     top: 600px; 
@@ -141,9 +143,9 @@ h1 {
     color: black;
     border: 2px solid #4CAF50;
     font-family: babyblocks;
-    font-size: 19px; 
 }
 #buttonStart2 { /*descifrar*/
+    font-size: 19px; 
     position: absolute;
     left: 1135px; /*derecha*/
     top: 600px; 
@@ -153,10 +155,10 @@ h1 {
     color: black;
     border: 2px solid #4CAF50;
     font-family: babyblocks;
-    font-size: 19px; 
     text-align: right;
 }
 #buttonStart3 { /*limpiar*/
+    font-size: 17px; 
     position: absolute;
     left: 1001px; /*derecha*/
     top: 610px; 
@@ -166,5 +168,5 @@ h1 {
     color: black;
     border: 2px solid #4CAF50;
     font-family: babyblocks;
-    font-size: 17px; 
+    
 }
